@@ -9,9 +9,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  experimental: {
-    agentFeedback: true,
-  },
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
